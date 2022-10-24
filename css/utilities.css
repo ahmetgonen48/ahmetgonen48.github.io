@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Prompt', sans-serif;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+ul{
+    list-style: none;
+
+}
+img{
+    width: 100%;
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    padding: 0 1.4rem;
+    margin: auto;
+
+}
+/* buttons */
+.btn{
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+
+}
+.btn-primary{
+    color: #333;
+    background-color: #EF6F6F;
+
+}
+.btn-light{
+    color: #333;
+    background-color: #f4f4f4;
+    
+}
+.btn-dark{
+    color: #fff;
+    background-color: #333;
+    
+}
+.hover:hover{
+    background-color: #EF6F6F;
+}
+
+/* backgrand */
+.bg-dark{
+    background-color: #333;
+}
+.bg-light{
+    background-color: #f4f4f4;
+}
+.bg-primary{
+    background-color: #EF6F6F;
+}
+
+
+
+/* padding */
+
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.py-4{
+    padding: 4rem 0;
+}
+.py-5{
+    padding: 5rem 0;
+}
+
+/* margin */
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin: 3rem 0;
+}
+.my-4{
+    margin: 4rem 0;
+}
+.my-5{
+    margin: 5rem 0;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.section-title{
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.border-bottom{
+    height: 3px;
+    width: 10rem;
+    background-color: #EF6F6F;
+    margin: 0 auto 1rem auto;
+}
+.lead{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    word-spacing: 3px;
+}
+
+
+/* opacity */
+.opacity:hover{
+    opacity: .8;
+}
+
