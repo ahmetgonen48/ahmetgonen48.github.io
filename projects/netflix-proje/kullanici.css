@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+
+}
+.header{
+    margin-top: 10%;
+    background-color: rgba(35, 35, 35,.7);
+}
+
+.header-who h1{
+    font-size: 3.3rem;
+}
+.user a{
+    text-decoration: none;
+    color: rgb(147, 144, 144);
+    
+}
+.as{
+    margin-top: 50%;
+}
+
+.user__img{
+    border-radius: 5px;
+}
+@media screen {
+    
+}

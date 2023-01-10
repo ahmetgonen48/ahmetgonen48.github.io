@@ -1,0 +1,383 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana sayfa - Netflix</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="browse.css">
+
+</head>
+<body>
+
+    <nav class="nav " id="nav">
+        
+            <div class="nav_header d-flex">
+                <a href="./browse.html"><img src="/img/logo.svg" alt="" width="100px"></a>
+                
+                <ul class="mt-2">
+                    <li class="list_group">
+                        <a class="me-3 text-white" href="#">Anasayfa</a>
+                        <a class="me-3 text-white" href="#">Diziler</a>
+                        <a class="me-3 text-white" href="#">Filmler</a>
+                        <a class="me-3 text-white" href="#">Yeni ve Popüler</a>
+                        <a class="me-3 text-white" href="#">Listem</a>
+                        <a class="me-3 text-white" href="#">Dile Göre Göz At</a>
+                    </li>
+                </ul>
+            
+            
+            
+            </div>
+            <div class="nav_second d-flex">
+                <div class="d-flex">
+
+                    <a href="#"><i class="me-3 mt-3 fa-solid fa-magnifying-glass text-white"></i></a>
+                    <a href="#" class="me-3 mt-3 text-white">Çocuk</a>
+                    <a href="#"><i class="me-3 mt-3 fa-regular fa-bell text-white"></i></a>
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="user_image" width="35px" src="http://occ-0-7332-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229" alt="">
+                        </a>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img width="30px" src="http://occ-0-7332-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229" alt="">  Kullanıcı 1</a></li>
+                            <li><a class="dropdown-item" href="#"><img width="30px" src="http://occ-0-7332-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229" alt="">  Kullanıcı 2</a></li>
+                            <li><a class="dropdown-item" href="#"><img width="30px" src="http://occ-0-7332-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229" alt="">  Kullanıcı 3</a></li>
+                            <li><a class="dropdown-item" href="#"><img width="30px" src="http://occ-0-7332-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229" alt="">  Kullanıcı 4</a></li>
+                            <li><a class="dropdown-item" href="./kullanici.html">Profil yönetimi</a></li>
+                            <li><a class="dropdown-item" href="#">Profili aktar</a></li>
+                            <li><a class="dropdown-item" href="#">Hesap</a></li>
+                            <li><a class="dropdown-item" href="#">Yardım merkezi</a></li>
+                            <li><a class="dropdown-item border-top" href="./index.html">Netflix Oturumu Kapat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner" id="banner">
+        <video id="video" class="banner"  poster="img/l-movie4.jpg" style="pointer-events:none ;">
+            <source src="img/w-trailer.mp4" type="video/mp4" />
+        </video>
+        <div class="banner__contents">
+            <h1 class="banner__title">WEDNESDAY</h1>
+            <div class="banner_buttons">
+                <button class="btn btn-light" id='btnPlayPause' accesskey="P" onclick='playPauseVideo();'><i class="fa-solid fa-caret-right"> </i>  Oynat</button>
+                <button class="banner__button">Daha fazla bilgi</button>
+            </div>
+            <div class="banner__desc">
+                Berbat bir şaka yüzünden okuldan atılan Wednesday,anne ve babasının birbirlerine aşık olduğu yatılı bir okul olan Nevermore Akademisine gönderilir.
+            </div>
+        </div>
+    </div>
+
+    <!-- Netflix Originals -->
+    <div class="row first">
+        <h2>NETFLIX ORIGINALS</h2>
+        <div class="row_posters">
+            <img src="img/l-movie1.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie2.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie3.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie4.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie5.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie6.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie7.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie8.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie9.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie10.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie1.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie2.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie3.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie4.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie5.jpg" alt="" class="row__poster row__posterLarge"/>
+            <img src="img/l-movie6.jpg" alt="" class="row__poster row__posterLarge"/>
+        </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="row">
+        <h2>Gündemdekiler</h2>
+        <div class="row_posters">
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="row">
+        <h2>Sadece Netflix'te</h2>
+        <div class="row_posters">
+            <img src="img/s-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie3.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie4.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie5.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie7.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie3.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie4.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie5.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie7.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie8.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+        <h2>Aksiyon filmleri</h2>
+        <div class="row_posters">
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+    
+    <!-- Comedy Movies -->
+    <div class="row">
+        <h2>Komedi filmleri</h2>
+        <div class="row_posters">
+            <img src="img/s-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie3.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie5.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie3.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie3.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie4.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie5.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie7.webp" alt="" class="row__poster"/>
+            <img src="img/s-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/s-movie7.webp" alt="" class="row__poster"/>
+        </div>
+    </div>
+    
+        
+    <!-- Horror Movies -->
+    <div class="row">
+        <h2>Korku filmleri</h2>
+        <div class="row_posters">
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+        
+    <!-- Romance Movies -->
+    <div class="row">
+        <h2>Bilimkurgu filmleri</h2>
+        <div class="row_posters">
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+
+        </div>
+    </div>
+
+        
+    <!-- Documentaries -->
+    <div class="row">
+        <h2>Belgeseller</h2>
+        <div class="row_posters">
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie6.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie2.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie3.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie4.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie5.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie7.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie8.jpg" alt="" class="row__poster"/>
+            <img src="img/small-movie1.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="container">
+          <ul class="mt-5">
+            <li>
+              <p class="footerNumber">Sorularınız mı var? <span>0850-390-7444</span>  numaralı telefonu arayın</p>
+  
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-sm-3 col-6">
+              <ul>
+                <li><a href="#">SSS</a></li>
+                <li><a href="#">Yatırımcı İlişkileri</a></li>
+                <li><a href="#">Kullanım Koşulları</a></li>
+                <li><a href="#">Bize Ulaşın</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-6">
+              <ul>
+                <li><a href="#">Yardım Merkezi</a></li>
+                <li><a href="#">İş İmkanları</a></li>
+                <li><a href="#">Gizlilik</a></li>
+                <li><a href="#">Hız Testi</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-6">
+              <ul>
+                <li><a href="#">Hesap</a></li>
+                <li><a href="#">Hediye Kartı Kullan</a></li>
+                <li><a href="#">Çerez Tercihleri</a></li>
+                <li><a href="#">Yasal Hükümler</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-6">
+              <ul>
+                <li><a href="#">Medya Merkezi</a></li>
+                <li><a href="#">İzleme Yolları</a></li>
+                <li><a href="#">Kurumsal Bilgiler</a></li>
+                <li><a href="#">Sadece Netflix'te</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="dropdown ">
+              <button
+                class="btn text-white dropdown-toggle border ms-4"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dil Seçiniz
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                <li><a class="dropdown-item" href="#">İngilizce</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="footerText p-4">Netflix Türkiye</p>
+        </div>
+      </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        player = document.getElementById('video');
+        btnPlayPause = document.getElementById('btnPlayPause');
+        player.addEventListener('play', function() {
+		changeButtonType(btnPlayPause, '<i class="fa-solid fa-pause"></i> Durdur');
+        }, false);
+    
+        player.addEventListener('pause', function() {
+            changeButtonType(btnPlayPause, '<i class="fa-solid fa-caret-right"> </i> Oynat');
+        }, false);
+        
+        function playPauseVideo() {
+            if (player.paused || player.ended) {
+                changeButtonType(btnPlayPause, 'Pause');
+                player.play();
+            }
+            else {
+                changeButtonType(btnPlayPause, 'Play');
+                player.pause();
+            }
+        }
+        function changeButtonType(btn, value) {
+            btn.title     = value;
+            btn.innerHTML = value;
+        }
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 100){
+                nav.classList.add('nav__black');
+            }else{
+                nav.classList.remove('nav__black')
+            }
+        })
+    </script>
+</body>
+</html>

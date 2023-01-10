@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 69vh;
+}
+.loging-inp{
+    height: 50px;
+    border-radius: 5px;
+}
+.buton{
+    height: 50px;
+}
+.giris{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.giris:hover{
+    text-decoration: underline;
+}
+span:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+footer{
+    background-color: #e0dddd;
+}
+ul li{
+
+    margin-top: 1rem;
+    list-style: none;
+    color: #737373;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #737373;
+
+}
+ul li a:hover{
+    text-decoration:underline;
+}
+span:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.footerText{
+    color: #000000;
+}
+.kalinyazi{
+    font-weight: bold;
+}
+.textBig{
+    font-size: 1.3rem;
+}
