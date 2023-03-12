@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+/* navbar */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+nav li{
+    list-style: none;
+}
+
+/* ilk görünen sayfa */
+.first-content{
+    margin-top: 15%;
+
+
+}
+.vh{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(./first.jpg);    
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* content */
+.content{
+    background: rgb(160,160,171);
+    background: linear-gradient(90deg, rgba(160,160,171,1) 0%, rgba(206,206,218,1) 48%, rgba(0,212,255,1) 100%);
+}
+
+/* çalışma alanı */
+.asd{
+        
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.a1{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=1);
+}
+.a2{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=2);
+}
+.a3{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=3);
+}
+.a4{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=4);
+}
+.a5{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=5);
+}
+.a6{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=6);
+}
+.a7{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=7);
+}
+.a8{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=8);
+}
+.a9{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=9);
+}
+.a10{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://picsum.photos/500/450?random=10);
+}
+
+
+/* iletişim */
+.contact{
+    background: rgb(31,31,33);
+    background: linear-gradient(90deg, rgba(31,31,33,1) 0%, rgba(8,8,8,1) 59%, rgba(26,57,64,1) 100%);
+}
+
+
